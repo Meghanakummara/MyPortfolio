@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Preconnect and font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS for grid -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJg4MQJQFkAfJzFw5x6S+PhgX2Rj4bXLw/TM1rRSVm87EmMzxtLwU4WjcJl1" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Kummara Meghana</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/Meghanakummara" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/kummara-meghana-200b5b246" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:kummarameghana.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav> <hr> <br>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Meghana 👋</h2>
+        <p>A collection of innovative, user-centered web applications showcasing expertise in front-end development, including projects with HTML, CSS, JavaScript, ReactJS, and problem-solving solutions.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="Kummara-Meghana-Resume.pdf" download="Meghana_Resume.pdf">
+            <i class="fa-solid fa-download"></i>
+            <span>Resume</span>
+        </a>
+        
+          <a href="#projects">
+            <i class="fa-solid fa-project-diagram"></i>
+            <span>Projects</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/Picture1.webp" alt="Meghana">
+      </div>
+    </section> <hr> <br>
+
+    <!-- SECTION 2: Skills (with Bootstrap grid) -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <br><br>
+
+    <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="HTML logo" class="img-fluid">
+          <span>HTML</span>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="CSS logo" class="img-fluid">
+          <span>CSS</span>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="JavaScript logo" class="img-fluid">
+          <span>JavaScript</span>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="React.js logo" class="img-fluid">
+          <span>React.js</span>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="cell">
+          <img src="images/bootstrap.webp" alt="Bootstrap logo" class="img-fluid">
+          <span>Bootstrap</span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="cell">
+          <img src="images/java-logo-png_seeklogo-158094.png" alt="Java logo" class="img-fluid">
+          <span>Java</span>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="cell">
+          <img src="images/sql-logo.webp" alt="SQL logo" class="img-fluid">
+          <span>SQL</span>
+        </div>
+      </div>
+      
+
+      <div class="col-md-3">
+        <div class="cell">
+          <img src="images/github.webp" alt="GitHub logo" class="img-fluid">
+          <span>GitHub</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <hr> <br>
+<!-- SECTION 3: Projects -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="project">
+              <img src="images/todo.webp" alt="Project 1" class="img-fluid">
+              <h3>TODO APP</h3>
+              <p>A simple and efficient to-do app for managing tasks, boosting productivity, and tracking progress easily.</p>
+              <a href="https://github.com/Meghanakummara/OIBSIP/tree/main/Basic%20todo%20app" target="_blank" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="project">
+              <img src="images/landing-page.webp" alt="Project 2" class="img-fluid">
+              <h3>Landing Page</h3>
+              <p>A visually appealing coffee-themed landing page showcasing rich flavors, morning freshness, and an inviting user experience.</p>
+              <a href="https://github.com/Meghanakummara/OIBSIP/tree/main/landing%20page%201" target="_blank" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="project">
+              <img src="images/gym.webp" alt="Project 3" class="img-fluid">
+              <h3>Gym Website</h3>
+              <p>A dynamic gym website promoting fitness, training programs, memberships, and a healthy lifestyle for all enthusiasts.</p>
+              <a href="https://github.com/Meghanakummara/GYM_Website" target="_blank" class="btn btn-primary">View Project</a>
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project">
+              <img src="images/dashboard.webp" alt="Project 3" class="img-fluid">
+              <h3>Zara sales</h3>
+              <p>A detailed Zara sales analysis showcasing trends, revenue insights, customer preferences, and market performance evaluation.</p>
+              <a href="https://github.com/Meghanakummara/Zara_sales" target="_blank" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+    </section>
+  </main> <hr> <br>
+
+  <!-- FOOTER -->
+  <footer>
+      <div class="footer-content">
+          <p>&copy; 2023 Kummara Meghana. All rights reserved.</p>
+          <div class="social-links">
+              <a href="https://github.com/Meghanakummara" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/kummara-meghana-200b5b246" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="mailto:kummarameghana.com">
+                  <i class="fa-solid fa-envelope"></i>
+              </a>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
